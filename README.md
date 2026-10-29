@@ -70,9 +70,3 @@ python -m unittest discover -s tests -v
 CI validates all four notebook files and checks aggregation on a tiny synthetic fixture, including zero income and customer-level fraud counts. Full clustering and historical results were not reproduced without the external data. This is an analysis project, without a deployed fraud decision system.
 
 
-## Contributing and provenance
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the contribution workflow and
-[NOTICE.md](NOTICE.md) for source provenance and reuse terms. Dataset licenses
-are separate from code rights. No open-source license was present in the supplied
-materials, so no blanket license has been added.
